@@ -5,9 +5,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --pink: #FB2E86;
+  --red: #FB2448;
+  --blue: #2F1AC4;
+  --off-navy-blue: #3F509E;
+  --navy-blue: #151875;
+  --sky-blue: #F3F9FF;
+  --pantone-purple: #E0D3F5;
+  --purple: #7E33E0;
+  --off-purple: #9F63B5;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -17,5 +26,21 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body * {
+  font-family: inherit;
+}
+
+@layer components {
+  .icon-base {
+    @apply text-white w-4 h-4 stroke-1.5;
+  }
+}
+
+input:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
 }
