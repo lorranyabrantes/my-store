@@ -20,7 +20,7 @@ const ContactItem = ({ href, icon, children }: ContactItemProps) => (
 const TopBar = () => {
     return (
         <div className="w-full h-11 bg-purple flex items-center">
-            <nav className="max-w-screen-xl w-full mx-auto px-4 flex justify-between text-white text-sm">
+            <nav className="container-base flex justify-between text-white text-sm">
                 <ul className="flex items-center gap-12">
                     <ContactItem href="mailto:email@email.com" icon={<Mail className="icon-base" />}>
                         email@email.com

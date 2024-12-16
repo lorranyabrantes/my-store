@@ -3,6 +3,8 @@ import "./globals.css";
 import Header from "@/_components/Header";
 import TopBar from "@/_components/TopBar";
 import { Josefin_Sans } from "next/font/google";
+import Footer from "@/_components/Footer";
+import BottomBar from "@/_components/BottomBar";
 
 const josefinSans = Josefin_Sans({
   subsets: ['latin'],
@@ -24,6 +26,8 @@ export default function RootLayout({
         <TopBar />
         <Header />
         {children}
+        <Footer />
+        <BottomBar />
       </body>
     </html>
   );

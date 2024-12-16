@@ -34,9 +34,14 @@ body * {
 }
 
 @layer components {
+  .container-base {
+    @apply max-w-screen-xl w-full mx-auto px-4;
+  }
+
   .icon-base {
     @apply text-white w-4 h-4 stroke-1.5;
   }
+
 }
 
 input:focus,
