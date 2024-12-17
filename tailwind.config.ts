@@ -19,6 +19,7 @@ export default {
         "pantone-purple": "var(--pantone-purple)",
         purple: "var(--purple)",
         "off-purple": "var(--off-purple)",
+        "light-purple": "var(--light-purple)"
       },
       strokeWidth: {
         '1.5': "1.5px",
