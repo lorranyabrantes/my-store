@@ -34,10 +34,12 @@ const banners = [
 
 export default function Home() {
   return (
-    <Slider
-      banners={banners.map((banner) => (
-        <Banner key={banner.title} {...banner} />
-      ))}
-    />
+    <>
+      <Slider
+        banners={banners.map((banner) => (
+          <Banner key={banner.title} {...banner} />
+        ))}
+      />
+    </>
   );
 }
