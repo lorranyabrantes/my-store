@@ -3,6 +3,6 @@ export const generateBreadcrumb = (path: string) => {
 
     return segments?.map((segment, index) => {
         const href = `/${segments.slice(0, index + 1).join("/")}`;
-        return { segment, href }
+        return { segment: decodeURIComponent(segment), href }
     })
 }

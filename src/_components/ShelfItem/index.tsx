@@ -21,7 +21,7 @@ const ShelfItem = ({
                 <div className="w-72 h-72 bg-[#F6F7FB] flex justify-center items-center">
                     {image}
                 </div>
-                <Link href={`product/${code}`} className="bg-[#08D15F] px-3 h-10 rounded-full font-medium text-white absolute bottom-2 left-2/4 -translate-x-2/4 invisible group-hover:visible transition duration-200 flex items-center">View Details</Link>
+                <Link href={`/products/${code}`} className="bg-[#08D15F] px-3 h-10 rounded-full font-medium text-white absolute bottom-2 left-2/4 -translate-x-2/4 invisible group-hover:visible transition duration-200 flex items-center">View Details</Link>
             </div>
             <div className="text-center group group-hover:bg-[#2F1AC4] transition duration-200 p-4">
                 <h4 className="font-bold text-lg mb-3 text-pink transition duration-200 group-hover:text-white truncate"
