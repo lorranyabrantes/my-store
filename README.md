@@ -1,3 +1,22 @@
+:construction:
+
+## TODO LIST
+
+- [ ] Check mobile
+- [ ] Standardize colors
+- [ ] Dark mode
+- [ ] Add shelfs to home
+- [ ] Use variants in components
+- [ ] Filters
+- [ ] Search
+- [ ] System pages
+- [ ] Separate typing
+- [ ] Separate services
+- [ ] Lint
+- [ ] Tests (unitary, integrated and automated)
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
